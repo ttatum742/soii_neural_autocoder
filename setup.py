@@ -13,9 +13,10 @@ setup(name='soii_neural_autocoder',
       author_email='measure.alex@bls.gov',
       packages=find_packages(),
       include_package_data=True,
-      install_requires=['tensorflow',
-                        'nltk',
+      install_requires=['tensorflow==1.8.0',
+                        'nltk==3.2.5',
                         'pyyaml',
                         'pandas',
                         'keras==2.1.6',
-                        'sklearn'])
+                        'sklearn',
+                        'scikit-learn'])
