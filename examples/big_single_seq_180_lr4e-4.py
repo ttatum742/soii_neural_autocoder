@@ -23,7 +23,7 @@ from keras.layers import LSTM, Input, BatchNormalization
 from keras.layers.merge import concatenate, add
 from keras.layers.wrappers import Bidirectional
 from keras.layers.wrappers import TimeDistributed
-from keras.optimizers_v1 import Adam
+from keras.optimizers import Adam
 from keras.callbacks import ModelCheckpoint, CSVLogger, EarlyStopping, ReduceLROnPlateau
 
 from cac_net.utils import get_train_test, valid_codes, Classifier, jdump

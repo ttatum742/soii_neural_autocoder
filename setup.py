@@ -17,5 +17,5 @@ setup(name='soii_neural_autocoder',
                         'nltk',
                         'pyyaml',
                         'pandas',
-                        'keras',
+                        'keras==2.1.6',
                         'sklearn'])
